@@ -22,3 +22,26 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  margin: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  list-style: none;
+  padding: 20px 120px ;
+}
+
+
+.gallery li img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 64px 34px 35px 0px rgba(235,154,232,0.75);
+  -webkit-box-shadow: 64px 34px 35px 0px rgba(235,154,232,0.75);
+  -moz-box-shadow: 64px 34px 35px 0px rgba(235,154,232,0.75);
+  
+}
