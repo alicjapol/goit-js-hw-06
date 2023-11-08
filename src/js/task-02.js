@@ -13,7 +13,8 @@ ingredients.forEach((ingredient) => {
   const newLi = document.createElement("li");
   newLi.textContent = ingredient;
   newLi.classList.add("item");
-});
-ulIngredients.appendChild(itemsList);
+  itemsList.push(newLi);
 
-itemsList.push(newLi);
+});
+ulIngredients.append(...itemsList);
+
